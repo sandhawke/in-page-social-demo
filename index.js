@@ -1,8 +1,18 @@
 'use strict'
 
-const handler_site = require('./handler_site')
-const usage_site = require('./usage_site')
+const home_site = require('./home_site')
+const away_site = require('./away_site')
 
-const config = {}  // needs to be the same object because they update it
-handler_site(config)
-usage_site(config)
+// needs to be the same object because they update it
+const config = {}
+// they'll use ports from this list until it runs out, then use
+// dynamically assigned ports
+config.ports = [8098, 8099]
+config.home_sites = []
+config.away_sites = []
+
+home_site(config)
+home_site(config)
+
+away_site(config)
+away_site(config)
