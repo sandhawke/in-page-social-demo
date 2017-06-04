@@ -8,3 +8,10 @@ Demonstration of decentralized in-page social actions.
 
 This is based on [web-based protocol handlers](https://developer.mozilla.org/en-US/docs/Web-based_protocol_handlers)
 
+Online demo running at:
+
+* Home site:  http://inpagedemo.hawke.org:8098
+* Home site:  http://inpagedemo.hawke.org:8099
+* Away site:  http://inpagedemo.hawke.org:8100
+* Away site:  http://inpagedemo.hawke.org:8101
+

@@ -7,7 +7,8 @@ const away_site = require('./away_site')
 const config = {}
 // they'll use ports from this list until it runs out, then use
 // dynamically assigned ports
-config.ports = [8098, 8099]
+config.ports = [8098, 8099, 8100, 8101]
+
 config.home_sites = []
 config.away_sites = []
 

@@ -14,7 +14,7 @@ function init (config) {
   let siteURL
   let port = config.ports.shift() || 0
   const server = http.createServer(app)
-  server.listen(0, () => {
+  server.listen(port, () => {
     const a = server.address()
     port = a.port
     siteURL = 'http://' + os.hostname() + ':' + a.port
